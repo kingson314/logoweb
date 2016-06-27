@@ -1,0 +1,36 @@
+{
+  "name": "logHtml",
+  "version": "0.0.1",
+  "description": "logHtml",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "imagemin-pngquant": "^5.0.0"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-cache": "^0.4.1",
+    "gulp-connect": "^4.1.0",
+    "gulp-file-include": "^0.13.7",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-less": "^3.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-mock": "^0.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-seajs-combo": "^1.2.3",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-watch": "^4.3.6"
+  },
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kingson314/Repository.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "components"
+  ]
+}

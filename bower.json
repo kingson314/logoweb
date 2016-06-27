@@ -1,0 +1,32 @@
+{
+  "name": "logHtml",
+  "description": "logHtml",
+  "main": "gulpfile.js",
+  "authors": [
+    "linjun"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "components"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "underscore": "^1.8.3",
+    "bootstrap": "^3.3.6",
+    "seajs": "^3.0.0",
+    "seajs-css": "*",
+    "html5shiv": "^3.7.3",
+    "respond": "^1.4.2",
+    "js-cookie": "^2.1.2",
+    "hammerjs": "hammer.js#^2.0.8",
+    "bootstrap-progressbar": "^0.9.0"
+  },
+  "devDependencies": {}
+}

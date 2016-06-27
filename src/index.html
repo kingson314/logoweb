@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	@@include('include/head.html', {"title": "首页"})
+	<link href="/static/css/index.css" rel="stylesheet" type="text/css" />
+	<style>
+
+	</style>
+</head>
+
+<body>
+	@@include('include/header.html', {})
+
+	<!-- main begin -->
+	<div class="h20"></div>
+	<div name="">
+		<div class="container">
+			<div class="col-md-12">
+				<div id="myCarousel" class="carousel slide">
+					<!-- 轮播（Carousel）指标 -->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+					<!-- 轮播（Carousel）项目 -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<img class="img-responsive" src="/static/img/1.jpg">
+						</div>
+						<div class="item">
+							<img class="img-responsive" src="/static/img/2.jpg">
+						</div>
+						<div class="item">
+							<img class="img-responsive" src="/static/img/3.jpg">
+						</div>
+					</div>
+					<!-- 轮播（Carousel）导航 -->
+					<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+					<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="h20"></div>
+	<div class="">
+		<div class="container">
+			<div class="col-md-5">
+				<a href="###">
+					<i class="iconfont icon-xiaoxi1"></i>
+					<span>七弦琴标志征集活动正式启动，欢迎大家踊跃报名投稿。</span>
+				</a>
+			</div>
+			<div class="col-md-5">
+				<a href="###">
+					<span>为你讲述设计中的注意事项，Soul年，直奔目标吧！</span>
+				</a>
+			</div>
+			<div class="col-md-2">
+				<a href="###">
+					<span>更多消息</span>
+					<i class="iconfont icon-xiangyou1"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="h10"></div>
+	<!--分割线-->
+	<div class="container">
+		<div class="col-md-12">
+			<div class="split-line"></div>
+		</div>
+	</div>
+	<div class="h10"></div>
+	<div class="container">
+		<div class="col-md-12">
+			<div class="split-line"></div>
+		</div>
+	</div>
+	<div class="h10"></div>
+	<div class="container">
+		<div class="col-md-12">
+			<div class="split-line"></div>
+		</div>
+	</div>
+	<div class="h20"></div>
+
+	<!-- main end -->
+
+	@@include('include/footer.html', {})
+</body>
+@@include('include/scripts.html', {})
+<script>
+	$().ready(function() {
+
+	});
+</script>
+
+</html>
