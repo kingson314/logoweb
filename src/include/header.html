@@ -9,25 +9,31 @@
                 </div>
                 <div class="header_toolbar">
                     <ul>
-                        <li><a href="#"><span>登录</span></a></li>
-                        <li><a href="#"><span>注册</span></a></li>
+                        <li>
+                          <a href="#" data-toggle="modal" data-target="#loginModal">
+                            <span>登录</span>
+                          </a>
+                        </li>
+                        <li><a href="/regsiter.html"><span>注册</span></a></li>
                     </ul>
                 </div>
                 <div class="header_msg"><span></span><span>400-8036-777</span></div>
                 <div class="header_nav">
                     <ul>
-                        <li><a href="#"><span>常见问题</span></a></li>
-                        <li><a href="#"><span>作品展示</span></a></li>
-                        <li><a href="#"><span>七弦琴故事</span></a></li>
-                        <li><a href="#"><span>作品提交</span></a></li>
-                        <li><a href="#"><span>关于征集</span></a></li>
-                        <li><a href="#"><span>最新消息</span></a></li>
-                        <li><a href="#"><span>首页</span></a></li>
+                        <li><a id="faq" class="@@faq" href="/faq.html"><span>常见问题</span></a></li>
+                        <li><a id="works" class="@@works" href="/works.html"><span>作品展示</span></a></li>
+                        <li><a id="story" class="@@story" href="/story.html"><span>七弦琴故事</span></a></li>
+                        <li><a id="commit" class="@@commit" href="/commit.html"><span>作品提交</span></a></li>
+                        <li><a id="about" class="@@about" href="/about.html"><span>关于征集</span></a></li>
+                        <li><a id="news" class="@@news" href="/news.html"><span>最新消息</span></a></li>
+                        <li><a id="index" class="@@index" href="/index.html"><span>首页</span></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+@@include('login.html', {})
 
 <!-- header end -->

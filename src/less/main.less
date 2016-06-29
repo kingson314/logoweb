@@ -1,5 +1,7 @@
+@color: #FEFFFF;
+@hovercolor:#AE1005;
 body {
-	background-color: #F4F8F9;
+	background-color: @color;
 }
 /**header**/
 .header {
@@ -68,7 +70,12 @@ body {
 	border-bottom: 2px solid #D5D5D5;
 }
 .header_nav li a:hover {
-	color: #222;
+	color: @hovercolor;
+	border-bottom: 2px solid @hovercolor * 1.2;
+}
+.header_nav li a.active{
+	color: @hovercolor;
+	border-bottom: 2px solid @hovercolor;
 }
 /**main**/
 .main {
@@ -135,14 +142,14 @@ body {
 }
 /**footer**/
 .footer {
-	padding: 10px 0px;
+	padding: 10px 0;
 	background-color: #2D3236;
 	border-top: 5px solid #CC0033;
 	color: #fff;
 }
-.footer_aboutUs p ,
+.footer_aboutUs p,
 .footer_contactUs p {
-	padding: 5px 0px;
+	padding: 5px 0;
 	color: #888685;
 	font-size: 10px;
 }
