@@ -68,7 +68,8 @@ gulp.task('fileinclude', () => {
 //watch事件
 gulp.task('watchTask', () => {
     gulp.watch('src/less/*.less', ['lessTask']); //当所有less文件发生改变时，调用lessTask任务
-    gulp.watch('src/*.html', ['fileinclude']);
+    gulp.watch('src/**/*.html', ['fileinclude']);
+    gulp.watch('src/**/*.*', ['copy-script','copy-img','copy-css']);
 });
 //web服务器
 gulp.task('server', () => {
