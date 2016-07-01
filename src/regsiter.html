@@ -3,525 +3,249 @@
 
 <head>
 	@@include('include/head.html', {"title": "注册"})
-	<link href="/static/css/index.css" rel="stylesheet" type="text/css" />
-	<style>
-
-	</style>
+	<link href="/static/css/regsiter.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 	@@include('include/header.html', {"index":"active"})
-
-	<!-- main begin -->
-	<div class="container">
-		<div class="h20"></div>
-		<div name="">
-			<div class="row">
+	<div class="regsiter_body">
+		<!-- main begin -->
+		<div class="container">
+			<div class="row regsiter_title">
 				<div class="col-md-12">
-					<div id="myCarousel" class="carousel slide">
-						<!-- 轮播（Carousel）指标 -->
-						<ol class="carousel-indicators">
-							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-							<li data-target="#myCarousel" data-slide-to="1"></li>
-							<li data-target="#myCarousel" data-slide-to="2"></li>
-						</ol>
-						<!-- 轮播（Carousel）项目 -->
-						<div class="carousel-inner">
-							<div class="item active">
-								<img class="img-responsive" src="http://placeholder.qiniudn.com/1140x400/4CD964/fff" />
-							</div>
-							<div class="item">
-								<img class="img-responsive" src="http://placeholder.qiniudn.com/1140x400/4CD964/fff" />
-							</div>
-							<div class="item">
-								<img class="img-responsive" src="http://placeholder.qiniudn.com/1140x400/4CD964/fff" />
-							</div>
-						</div>
-						<!-- 轮播（Carousel）导航 -->
-						<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-						<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+					<h1 class='text-center'>报名征集</h1>
+				</div>
+			</div>
+			<div class="row regsiter_nav">
+				<div class="col-md-2"></div>
+				<div class="col-md-3">
+					<div class="step1">
+						<div class="inner text-center">1</div>
+					</div>
+					<br>
+					<div>
+						&nbsp;&nbsp;&nbsp;用户注册
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="step1">
+						<div class="inner text-center">2</div>
+					</div>
+					<br>
+					<div>
+						&nbsp;&nbsp;&nbsp完善资料
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="step1">
+						<div class="inner text-center">3</div>
+					</div>
+					<br>
+					<div>
+						&nbsp;&nbsp;&nbsp;报名成功
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="h20"></div>
-		<div class="">
-			<div class="row">
-				<div class="col-md-5">
-					<a href="###">
-						<i class="iconfont icon-xiaoxi1"></i>
-						<span>七弦琴标志征集活动正式启动，欢迎大家踊跃报名投稿。</span>
-					</a>
-				</div>
-				<div class="col-md-5">
-					<a href="###">
-						<span>为你讲述设计中的注意事项，Soul年，直奔目标吧！</span>
-					</a>
-				</div>
-				<div class="col-md-2">
-					<a href="###" class="">
-						<span>更多消息</span>
-						<i class="iconfont icon-xiangyou1"></i>
-					</a>
-				</div>
-			</div>
-		</div>
-		<div class="h10"></div>
-		<!--分割线-->
-		<div class="row">
-			<div class="col-md-12">
-				<div class="split-line"></div>
-			</div>
-		</div>
-		<div class="h10"></div>
 
-		<!-- 四图板块 -->
-		<div class="row">
-			<!-- 背景 -->
-			<div class="col-md-6">
-				<div class="row">
-					<div class="col-md-3">
-						<div class="row">
-							<div class="col-md-12">
-								<img class="img-responsive" src="http://placeholder.qiniudn.com/130x100/EB7904/fff" />
-							</div>
-						</div>
-					</div>
-					<div class="col-md-8">
-						<div class="row">
-							<div class="col-md-12">
-								<h4>『七弦琴』标志设计征集活动背景</h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<span>＂七弦琴＂为国家横琴平台运营核心商标，为打造品牌，同时发掘优秀设计机构和设计师，
-									推动设计产业发展，特向全球征集＂七弦琴＂标志设计方案。</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- 故事 -->
-			<div class="col-md-6">
-				<div class="row">
-					<div class="col-md-3">
-						<div class="row">
-							<div class="col-md-12">
-								<img class="img-responsive" src="http://placeholder.qiniudn.com/130x100/1FAE3F/fff" />
-							</div>
-						</div>
-					</div>
-					<div class="col-md-8">
-						<div class="row">
-							<div class="col-md-12">
-								<h4>『七弦琴』故事：知识产权的那些事</h4>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<span>国家横琴平台七弦琴知识产权资产与服务交易网以"人，资，网，政，产、知、研"为战略方针，
-									以"加速知识产权资产和服务的交易与配置、为中国实体经济插上知识产权的翅膀"为使命。</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="h20"></div>
+			<!--注册第二步—-->
+			<div class="row regsiter_content regsiter-step1">
+				<div class="col-md-2"></div>
+				<div class="col-md-7">
+					<div class="row">
+						<form class="form-horizontal">
+							<div class="form-group">
+								<label for="userName" class="col-sm-2 control-label">用户名</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" id="userName">
+								</div>
 
-		<div class="row">
-			<!-- 要求 -->
-			<div class="col-md-6">
-				<div class="row">
-					<div class="col-md-3">
-						<div class="row">
-							<div class="col-md-12">
-								<img class="img-responsive" src="http://placeholder.qiniudn.com/130x100/FE2C71/fff" />
+								<div class="col-sm-2 control-label"></div>
+								<div class="col-sm-10 inputtip">请填写您的用户名，可选择中文，英文和数字或组合（与平台会员要求相同）</div>
+							</div>
+							<div class="form-group">
+								<label for="email" class="col-sm-2 control-label">邮箱</label>
+								<div class="col-sm-10">
+									<input type="email" class="form-control" id="email">
+								</div>
+
+								<div class="col-sm-2 control-label"></div>
+								<div class="col-sm-10 inputtip">请填写本人常用邮箱，该邮箱将作为帐号激活使用</div>
+							</div>
+							<div class="form-group">
+								<label for="password" class="col-sm-2 control-label">密码</label>
+								<div class="col-sm-10">
+									<input type="password" class="form-control" id="password">
+								</div>
+
+
+								<div class="col-sm-2 control-label"></div>
+								<div class="col-sm-10 inputtip">建议密码由字母、数字组合，至少6位</div>
+							</div>
+							<div class="form-group">
+								<label for="confirmpassword" class="col-sm-2 control-label">确认密码</label>
+								<div class="col-sm-10">
+									<input type="password" class="form-control" id="confirmpassword">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-offset-2 col-sm-10">
+									<div class="checkbox">
+										<label>
+											<input type="checkbox">我同意并遵守<a href="#">《七弦琴标志征集活动用户协议》</a>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12 text-center">
+									<button type="submit" class="btn btn-default btn-regsiter">注册</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<!--注册第二步—-->
+			<div class="row regsiter_content regsiter-step2">
+				<div class="col-md-2"></div>
+				<div class="col-md-7">
+					<form class="form-horizontal">
+						<div class="form-group">
+							<label for="name" class="col-sm-2 control-label">*&nbsp;姓名:</label>
+							<div class="col-sm-4">
+								<input type="text" class="form-control" id="name">
+							</div>
+
+							<label for="email" class="col-sm-2 control-label">*&nbsp;性别:</label>
+							<div class="col-sm-4">
+								<label class="radio-inline">
+									<input type="radio" name="sexy" id="sexy1" value="男"> 男
+								</label>
+								<label class="radio-inline">
+									<input type="radio" name="sexy" id="sexy2" value="女"> 女
+								</label>
 							</div>
 						</div>
-					</div>
-					<div class="col-md-8">
-						<div class="row">
-							<div class="col-md-12">
-								<h4>『七弦琴』标志征集活动作品要求</h4>
+
+						<div class="form-group">
+							<label for="phone" class="col-sm-2 control-label">*&nbsp;手机:</label>
+							<div class="col-sm-4">
+								<input type="text" class="form-control" id="phone">
+							</div>
+
+						</div>
+						<div class="form-group">
+							<label for="certificate" class="col-sm-2 control-label">*&nbsp;证件:</label>
+							<div class="col-sm-3">
+								<select class="form-control" id="certificate">
+									<option value="份证">身份证</option>
+								</select>
+							</div>
+
+							<label for="certificateNo" class="col-sm-3 control-label">*&nbsp;证件号码:</label>
+							<div class="col-sm-4">
+								<input type="text" class="form-control" id="certificateNo">
 							</div>
 						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<span>作品必须为未发表过的、专门为本次横琴国际知识产权交易中心设计征集活动所创作，
-									并不得申报其他同类征集活动。作品不得有抄袭成份，否则自动失去征集活动资格。</span>
+						<div class="form-group">
+							<label for="org" class="col-sm-2 control-label">*&nbsp;院校/组织:</label>
+							<div class="col-sm-4">
+								<input type="text" class="form-control" id="org">
+							</div>
+							<div class="col-sm-6 inputtip">所在学校、所在公司名称或组织名，请填写全名</div>
+						</div>
+
+						<div class="form-group">
+							<label for="occupation" class="col-sm-2 control-label">*&nbsp;职业:</label>
+							<div class="col-sm-4">
+								<select class="form-control" id="occupation">
+									<option value="">请选择</option>
+								</select>
+							</div>
+
+						</div>
+						<div class="form-group">
+							<label for="country" class="col-sm-2 control-label">*&nbsp;国家:</label>
+							<div class="col-sm-4">
+								<select class="form-control" id="country">
+									<option value="">china</option>
+								</select>
+							</div>
+
+						</div>
+						<div class="form-group">
+							<label for="country" class="col-sm-2 control-label">*&nbsp;</label>
+							<div class="col-sm-4">
+								<select class="form-control" id="province">
+									<option value="">省份</option>
+								</select>
+							</div>
+							<div class="col-sm-4">
+								<select class="form-control" id="city">
+									<option value="">城市</option>
+								</select>
 							</div>
 						</div>
-					</div>
-				</div>
-			</div>
-			<!-- 会员 -->
-			<div class="col-md-6">
-				<div class="row">
-					<div class="col-md-3">
-						<div class="row">
-							<div class="col-md-12">
-								<img class="img-responsive" src="http://placeholder.qiniudn.com/130x100/139FC2/fff" />
+						<div class="form-group">
+							<label for="certificate" class="col-sm-2 control-label">*&nbsp;通讯地址:</label>
+							<div class="col-sm-5">
+								<input type="text" class="form-control" id="certificate">
+							</div>
+
+							<label for="certificateNo" class="col-sm-2 control-label">*&nbsp;邮编:</label>
+							<div class="col-sm-3">
+								<input type="text" class="form-control" id="certificateNo">
 							</div>
 						</div>
-					</div>
-					<div class="col-md-8">
-						<div class="row">
-							<div class="col-md-12">
-								<h4>首批『七弦琴』设计会员·让设计更精彩</h4>
+						<hr>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<div class="checkbox">
+									<label>
+										<input type="checkbox">同意<a href="#">参赛协议</a>
+									</label>
+								</div>
+							</div>
+							<div class="col-sm-2 control-label"></div>
+							<div class="col-sm-10 inputtip">*参赛者一旦注册成功，即表示参赛者已阅读过并同意全部条款。所有带*项是必填项</div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-12 text-center">
+								<button type="submit" class="btn btn-default btn-submit">提交</button>
 							</div>
 						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<span>作品必须为未发表过的、专门为本次横琴国际知识产权交易中心设计征集活动所创作，
-									并不得申报其他同类征集活动。作品不得有抄袭成份，否则自动失去征集活动资格。</span>
-							</div>
-						</div>
+					</form>
+				</div>
+			</div>
+
+			<!--注册第三步—-->
+			<div class="row regsiter_content regsiter-step3">
+				<div class="col-md-2"></div>
+				<div class="col-md-7 text-center">
+					<div class="resiter_title"><span class="regsiter_name">某某某</span>，感谢您的支持，您已经成功报名</div>
+					<div class="resiter_case">七弦琴期待您的方案</div>
+					<div class="resiter_question">如有任何问题请联系<a href="mailto:logo@7ipr.com" "email me">logo@7ipr.com</a></div>
+					<br>
+					<br>
+					<br>
+					<div class="resiter_return">现在您可以，<a href="index.html">返回首页</a>阅读了解更多征集信息。也可以...</div>
+					<br>
+
+
+					<div class="col-sm-12 text-center">
+						<button type="submit" class="btn btn-default btn-submitcase">马上提交标志方案</button>
 					</div>
+					<br>
+					<br>
+					<br>
+					<br>
 				</div>
 			</div>
-		</div>
 
-		<div class="h10"></div>
-
-		<div class="row">
-			<div class="col-md-12">
-				<div class="split-line"></div>
-			</div>
 		</div>
-		<div class="h10"></div>
-
-		<!-- 百万募集 -->
-		<div class="row">
-			<div class="col-md-12">
-				<h2 class="text-center">百万募集，需求共鸣符号</h2>
-			</div>
-		</div>
-		<div class="row">
-			<!-- 中选方案 -->
-			<div class="col-md-3">
-				<p>&nbsp;</p>
-				<div class="col-md-12">
-					<h4>
-						中选方案 / 1名
-					</h4>
-					<p>&nbsp;</p>
-					<p>
-						含后期VI设计方案；
-					</p>
-					<p>
-						设计费人名币50万元（税前）；
-					</p>
-					<p>
-						获奖证书及奖杯；
-					</p>
-					<p>
-						平台会员资格（免费）。
-					</p>
-				</div>
-			</div>
-			<!-- 优秀方案 -->
-			<div class="col-md-3">
-				<p>&nbsp;</p>
-				<div class="col-md-12">
-					<h4>
-						优秀方案 / 10名
-					</h4>
-					<p>&nbsp;</p>
-					<p>
-						设计费人名币2万元（税前）；
-					</p>
-					<p>
-						获奖证书及奖杯；
-					</p>
-					<p>
-						平台会员资格（免费）。
-					</p>
-				</div>
-			</div>
-			<!-- 入围方案 -->
-			<div class="col-md-3">
-				<p>&nbsp;</p>
-				<div class="col-md-12">
-					<h4>
-						入围方案 / 100名
-					</h4>
-					<p>&nbsp;</p>
-					<p>
-						设计费人名币1000元（税前）；
-					</p>
-					<p>
-						获奖证书及奖杯；
-					</p>
-					<p>
-						平台会员资格（免费）。
-					</p>
-				</div>
-			</div>
-			<!-- 设计组织奖 -->
-			<div class="col-md-3">
-				<p>&nbsp;</p>
-				<div class="col-md-12">
-					<h4>
-						设计组织奖 / 20名
-					</h4>
-					<p>&nbsp;</p>
-					<p>
-						组织奖金人名币1万元（税前）；
-					</p>
-					<p>
-						获奖证书及奖杯；
-					</p>
-					<p>
-						平台会员资格（免费）。
-					</p>
-				</div>
-			</div>
-		</div>
-		<!-- 说明 -->
-		<div class="h20"></div>
-		<div class="row">
-			<div class="col-md-12">
-				<div class="row">
-					<div class="col-md-2">&nbsp;</div>
-					<div class="col-md-8">
-						<div class="row">
-							<span class="member-description">说明：平台会员资格是指国家平台七弦琴网的设计服务高级会员资格，
-							免首年年费5000元。次年期满后可选择续费或降级成为普通会员。</span>
-						</div>
-					</div>
-					<div class="col-md-2">&nbsp;</div>
-				</div>
-			</div>
-		</div>
-		<div class="h10"></div>
-
-		<!-- 评选标准 -->
-		<div class="h20"></div>
-		<div class="row">
-			<div class="col-md-12">
-				<div class="split-line"></div>
-			</div>
-		</div>
-		<div class="h20"></div>
-
-		<div class="row">
-			<div class="col-md-12">
-				<h2 class="text-center">评选标准</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<h4 class="text-center" style="color:#636465;width:100%;">评委会基于一下因素全面考量标志设计方案品质，
-					并以此为标准选出入围名单和最终获奖名单。</h4>
-			</div>
-		</div>
-		<div class="h20"></div>
-		<div class="row">
-			<div class="col-md-4">
-				<div class="thumbnail">
-					<img class="img-circle"
-						src="http://placeholder.qiniudn.com/130x130/EFB193/fff" />
-					<div class="caption">
-						<h4 class="text-center" style="color:#EFB193;">形态的创新</h4>
-						<p class="text-center" style="font-size:14px;">主办方拥有所有本次征集活动作品的收藏、展出、出版和深化应用设计方案的权利。</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="thumbnail">
-					<img class="img-circle"
-						src="http://placeholder.qiniudn.com/130x130/D54A3F/fff" />
-					<div class="caption">
-						<h4 class="text-center" style="color:#D54A3F;">环境的识别度</h4>
-						<p class="text-center" style="font-size:14px;">主办方拥有所有本次征集活动作品的收藏、展出、出版和深化应用设计方案的权利。</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="thumbnail">
-					<img class="img-circle"
-						src="http://placeholder.qiniudn.com/130x130/DE964A/fff" />
-					<div class="caption">
-						<h4 class="text-center" style="color:#DE964A;">应用的宽容度</h4>
-						<p class="text-center" style="font-size:14px;">主办方拥有所有本次征集活动作品的收藏、展出、出版和深化应用设计方案的权利。</p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- 征集活动日期 -->
-		<div class="h20"></div>
-		<div class="row">
-			<div class="col-md-12">
-				<div class="split-line"></div>
-			</div>
-		</div>
-		<div class="h10"></div>
-
-		<div class="row">
-			<div class="col-md-12">
-				<h2 class="text-center">征集活动日期</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<div class="item">
-					<img class="img-responsive"
-						src="http://placeholder.qiniudn.com/1140x260/EFB193/fff" />
-				</div>
-			</div>
-		</div>
-
-		<!-- 合作媒体 -->
-		<div class="h20"></div>
-		<div class="row">
-			<div class="col-md-12">
-				<div class="split-line"></div>
-			</div>
-		</div>
-		<div class="h10"></div>
-
-		<div class="row">
-			<div class="col-md-12">
-				<h2 class="text-center">合作媒体</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-3">
-				<div class="media-logo">
-					<a href="###">
-						<img class="img-responsive" alt="logo"
-							src="http://placeholder.qiniudn.com/160x60/EFB193/fff" />
-					</a>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="media-logo">
-					<a href="###">
-						<img class="img-responsive" alt="logo"
-							src="http://placeholder.qiniudn.com/160x60/EFB193/fff" />
-					</a>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="media-logo">
-					<a href="###">
-						<img class="img-responsive" alt="logo"
-							src="http://placeholder.qiniudn.com/160x60/EFB193/fff" />
-					</a>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="media-logo">
-					<a href="###">
-						<img class="img-responsive" alt="logo"
-							src="http://placeholder.qiniudn.com/160x60/EFB193/fff" />
-					</a>
-				</div>
-			</div>
-		</div>
-		<div class="h10"></div>
-		<div class="row">
-			<div class="col-md-3">
-				<div class="media-logo">
-					<a href="###">
-						<img class="img-responsive" alt="logo"
-							src="http://placeholder.qiniudn.com/160x60/EFB193/fff" />
-					</a>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="media-logo">
-					<a href="###">
-						<img class="img-responsive" alt="logo"
-							src="http://placeholder.qiniudn.com/160x60/EFB193/fff" />
-					</a>
-				</div>
-			</div>
-		</div>
-
-		<!-- 支持单位 -->
-		<div class="h20"></div>
-		<div class="row">
-			<div class="col-md-12">
-				<h2 class="text-center">支持单位</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-3">
-				<div class="media-logo">
-					<a href="###">
-						<img class="img-responsive" alt="logo"
-							src="http://placeholder.qiniudn.com/160x60/EFB193/fff" />
-					</a>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="media-logo">
-					<a href="###">
-						<img class="img-responsive" alt="logo"
-							src="http://placeholder.qiniudn.com/160x60/EFB193/fff" />
-					</a>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="media-logo">
-					<a href="###">
-						<img class="img-responsive" alt="logo"
-							src="http://placeholder.qiniudn.com/160x60/EFB193/fff" />
-					</a>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="media-logo">
-					<a href="###">
-						<img class="img-responsive" alt="logo"
-							src="http://placeholder.qiniudn.com/160x60/EFB193/fff" />
-					</a>
-				</div>
-			</div>
-		</div>
-		<div class="h10"></div>
-		<div class="row">
-			<div class="col-md-3">
-				<div class="media-logo">
-					<a href="###">
-						<img class="img-responsive" alt="logo"
-							src="http://placeholder.qiniudn.com/160x60/EFB193/fff" />
-					</a>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="media-logo">
-					<a href="###">
-						<img class="img-responsive" alt="logo"
-							src="http://placeholder.qiniudn.com/160x60/EFB193/fff" />
-					</a>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="media-logo">
-					<a href="###">
-						<img class="img-responsive" alt="logo"
-							src="http://placeholder.qiniudn.com/160x60/EFB193/fff" />
-					</a>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="media-logo">
-					<a href="###">
-						<img class="img-responsive" alt="logo"
-							src="http://placeholder.qiniudn.com/160x60/EFB193/fff" />
-					</a>
-				</div>
-			</div>
-		</div>
-		<div class="h20"></div>
+		<!-- main end -->
 	</div>
-	<!-- main end -->
-
 	@@include('include/footer.html', {})
 </body>
 @@include('include/scripts.html', {})
