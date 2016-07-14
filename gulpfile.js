@@ -1,7 +1,6 @@
 'use stritc';
 
 const gulp = require('gulp'),
-    mockServer = require('gulp-mock-server'),
     //  gulp-file-include插件
     fileinclude = require('gulp-file-include'),
     //  del插件
@@ -69,7 +68,7 @@ gulp.task('fileinclude', () => {
 gulp.task('watchTask', () => {
     gulp.watch('src/less/*.less', ['lessTask']); //当所有less文件发生改变时，调用lessTask任务
     gulp.watch('src/**/*.html', ['fileinclude']);
-    gulp.watch('src/**/*.*', ['copy-script','copy-img','copy-css']);
+    gulp.watch('src/**/*.*', ['copy-script', 'copy-img', 'copy-css']);
 });
 //web服务器
 gulp.task('server', () => {
@@ -102,4 +101,9 @@ gulp.task('default', [
     'server'
 ]);
 //编译用于发布 todo
-gulp.task('build', ['']);
+gulp.task('build', ['lessTask',
+    'copy-script',
+    'copy-img',
+    'copy-css',
+    'fileinclude'
+]);

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	@@include('include/head.html', {"title": "关于征集"})
+	<link href="/static/css/index.css" rel="stylesheet" type="text/css" />
+	<link href="/static/css/about-content.css" rel="stylesheet" type="text/css" />
+	<style>
+
+	</style>
+</head>
+
+<body>
+	@@include('include/header.html', {"about":"active"})
+
+	<!-- main begin -->
+	<div class="h10"></div>
+	<div class="logo-container">
+		<div class="h10"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10">
+					@@include('include/about-content.html', {})
+				</div>
+				<div class="col-md-2 about_right_nav">
+					<ul>
+						<li><a class='about_right_nav_active' href="#"><span>活动背景</span></a></li>
+						<li><a class="about_right_nav_normal" href="#"><span>国家级平台活动邀请您参与</span></a></li>
+						<li><a class="about_right_nav_normal" href="#"><span>百万奖金激励方案</span></a></li>
+						<li><a class="about_right_nav_normal" href="#"><span>平台设计会员机会</span></a></li>
+					</ul>
+					<div class="h20"></div>
+					<ul>
+						<li><a class='about_right_nav_active' href="#"><span>作品要求</span></a></li>
+						<li><a class="about_right_nav_normal" href="#"><span>形态的创新度 40%</span></a></li>
+						<li><a class="about_right_nav_normal" href="#"><span>环境的识别度 30%</span></a></li>
+						<li><a class="about_right_nav_normal" href="#"><span>应用的宽容度 30%</span></a></li>
+					</ul>
+					<div class="h20"></div>
+					<ul>
+						<li><a class='about_right_nav_active' href="#"><span>设计会员</span></a></li>
+						<li><a class="about_right_nav_normal" href="#"><span>版权注册服务<span></a></li>
+						<li><a class="about_right_nav_normal" href="#"><span>设计业务对接</span></a></li>
+						<li><a class="about_right_nav_normal" href="#"><span>个人/组织宣传</span></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="h20"></div>
+			<div class="row">
+			</div>
+			<div class="h20"></div>
+			<div class="row text-center">
+			</div>
+		</div>
+		<div class="h20"></div>
+	</div>
+	<!-- main end -->
+
+	@@include('include/footer.html', {})
+</body>
+@@include('include/scripts.html', {})
+<script>
+	$().ready(function() {
+
+	});
+</script>
+
+</html>

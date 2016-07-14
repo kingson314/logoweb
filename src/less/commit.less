@@ -1,0 +1,27 @@
+//#DEDFE0
+.commit-form {}
+.commit-form-header-base(@direction:left) {
+    background-color: #DEDFE0;
+    text-align: @direction;
+    height: 50px;
+    line-height: 50px;
+}
+.commit-form-header-left {
+    .commit-form-header-base;
+}
+.commit-form-header-right {
+    .commit-form-header-base(right);
+}
+.active {
+    color: #E98567;
+}
+a.active:hover {
+    .active;
+}
+.form-body {
+    background-color: #fff;
+    padding: 20px 10px;
+}
+.form-body-label {
+    text-align: right;
+}
